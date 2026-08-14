@@ -28,9 +28,9 @@ shared_state;
 struct timespec start_time, end_time;
 
 // Shared memory ids
-int shm_state_id
-int shm_mutex_id
-int shm_dogs_queue_id
+int shm_state_id;
+int shm_mutex_id;
+int shm_dogs_queue_id;
 int shm_cats_queue_id;
 
 // Pointers to shared memory segments
