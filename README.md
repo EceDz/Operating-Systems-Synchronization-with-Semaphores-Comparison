@@ -1,4 +1,4 @@
-# Synchronization with Semaphores — Cats & Dogs Problem
+# Synchronization with Semaphores Cats & Dogs Problem
 
 An Operating Systems  assignment implementing **"Cats and Dogs" (pet shop) synchronization problem** — a variant of readers-writers with starvation prevention — using POSIX semaphores. Two versions are provided: one using threads within a single process, and one using separate processes with System V shared memory. A full write-up and analysis is included in [`Report.pdf`](Report.pdf).
 
